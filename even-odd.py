@@ -1,3 +1,5 @@
+# This Program is all about Mod operation
+
 numbers =list( range(1,25))
 
 even, odd = [], []
@@ -7,6 +9,7 @@ for num in numbers:
         even.append(num)
     else:
         odd.append(num)
+
 
 
 print(even)
